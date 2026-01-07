@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+*{
+    color: white;
+    font-family: sans-serif;
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8em;
+}
+
+nav div ul{
+    display: flex;
+}
+
+.nav-izquierda ul li {
+    margin-right: 1.5em;
+}
+
+.nav-derecha ul li {
+    margin-left: 1.5em;
+    border: solid 1px white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.nav-derecha ul li:hover{
+    background-color: rgba(255, 255, 255, 0.253);
+    transition: all 0.1s;
+}
+
+#registrar{
+    background-color: white;
+    color: black;
+    border: solid 1px white;
+
+}
+
+#registrar:hover{
+    background-color: rgba(255, 255, 255, 0.775);
+    border: 1px solid rgba(255, 255, 255, 0.775);
+}
+main{
+    height: 700px;
+    background-image: url(../img/montanas.jpeg) ;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+
