@@ -5,6 +5,7 @@
 *.jar
 *.war
 *.ear
+*.vscode
 
 # Directorios de compilación
 out/
