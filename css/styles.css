@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0 auto;
 }
 *{
     color: white;
@@ -30,8 +31,8 @@ nav div ul{
 .nav-derecha ul li {
     margin-left: 1.5em;
     border: solid 1px white;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
     font-weight: 500;
 }
 
